@@ -24,7 +24,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+Q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+bindsym $mod+r exec dmenu_run
 
 # change focus
 bindsym $mod+j focus left
@@ -131,7 +131,7 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 
-bindsym $mod+r mode "resize"
+bindsym $mod+z mode "resize"
 
 #volume
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute
