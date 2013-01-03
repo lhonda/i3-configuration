@@ -132,6 +132,7 @@ mode "resize" {
 }
 
 bindsym $mod+z mode "resize"
+bindsym Control+mod1+l exec i3lock
 
 #volume
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute
